@@ -17,6 +17,7 @@
  *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
  */
 
+#include <cellatr.hxx>
 #include <doc.hxx>
 #include <IDocumentChartDataProviderAccess.hxx>
 #include <IDocumentState.hxx>
@@ -194,6 +195,16 @@ void SwDoc::SetTableName( SwFrameFormat& rTableFormat, const UIName &rInName )
         aIdx.Assign( *pStNd->EndOfSectionNode(), + 1 );
     }
     getIDocumentState().SetModified();
+
+    // Update all table formulas in the document to reflect the table name change.
+    const OUString sOldName = aOldName.toString();
+    const OUString sNewName = aNewName.toString();
+    std::vector<SwTableBoxFormula*> aTableBoxFormulas;
+    SwTable::GatherFormulas(*this, aTableBoxFormulas);
+    for (SwTableBoxFormula* pFormula : aTableBoxFormulas)
+    {
+        pFormula->RenameTableReference(sOldName, sNewName);
+    }
 }
 
 /* vim:set shiftwidth=4 softtabstop=4 expandtab: */

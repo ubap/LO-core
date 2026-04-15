@@ -142,6 +142,8 @@ public:
         m_bValidValue = false;
     }
 
+    void RenameTableReference(const OUString& rOldName, const OUString& rNewName);
+
     void GetBoxesOfFormula(const SwTable& rTable, SwSelBoxes& rBoxes);
     // are all boxes valid which this formula relies on?
     bool HasValidBoxes() const;

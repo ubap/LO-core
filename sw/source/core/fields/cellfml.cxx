@@ -924,6 +924,19 @@ static OUString lcl_BoxNmToRel( const SwTable& rTable, const SwTableNode& rTable
     return sTmp;
 }
 
+void SwTableFormula::RenameTableReference(const OUString& rOldName, const OUString& rNewName)
+{
+    OUString sOldPrefix = "<" + rOldName + ".";
+    OUString sFormulaText = GetFormula();
+
+    if (sFormulaText.indexOf(sOldPrefix) == -1)
+        return;
+
+    OUString sNewPrefix = "<" + rNewName + ".";
+    sFormulaText = sFormulaText.replaceAll(sOldPrefix, sNewPrefix);
+    SetFormula(sFormulaText);
+}
+
 void SwTableFormula::GetBoxesOfFormula( const SwTable& rTable,
                                         SwSelBoxes& rBoxes )
 {
