@@ -706,6 +706,9 @@ OUString GetUndoComment(SwUndoId eId)
         case SwUndoId::UNFLOAT_FRAME_CONTENT:
             pId = STR_UNDO_UNFLOAT_FRAME_CONTENT;
             break;
+        case SwUndoId::TABLE_RENAME:
+            pId = STR_UNDO_TABLE_RENAME;
+            break;
     }
 
     assert(pId);

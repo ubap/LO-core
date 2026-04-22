@@ -1598,6 +1598,8 @@
 
 #define STR_UNDO_UNFLOAT_FRAME_CONTENT NC_("STR_UNDO_UNFLOAT_FRAME_CONTENT", "Unfloat frame content")
 
+#define STR_UNDO_TABLE_RENAME NC_("STR_UNDO_TABLE_RENAME", "Rename table")
+
 #endif
 
 /* vim:set shiftwidth=4 softtabstop=4 expandtab: */
