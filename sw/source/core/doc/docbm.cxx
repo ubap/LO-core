@@ -36,7 +36,6 @@
 #include <node.hxx>
 #include <pam.hxx>
 #include <redline.hxx>
-#include <rolbck.hxx>
 #include <rtl/ustring.hxx>
 #include <sal/types.h>
 #include <sal/log.hxx>

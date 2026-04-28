@@ -18,7 +18,6 @@
  */
 
 #include <memory>
-#include <com/sun/star/text/HoriOrientation.hpp>
 #include <officecfg/Office/Writer.hxx>
 #include <osl/diagnose.h>
 #include <svl/numformat.hxx>
@@ -26,7 +25,6 @@
 
 #include <editeng/lrspitem.hxx>
 #include <editeng/boxitem.hxx>
-#include <tools/fract.hxx>
 #include <fmtfsize.hxx>
 #include <fmtornt.hxx>
 #include <doc.hxx>
@@ -44,10 +42,8 @@
 #include <pam.hxx>
 #include <swtable.hxx>
 #include <tblsel.hxx>
-#include <fldbas.hxx>
 #include <rowfrm.hxx>
 #include <ddefld.hxx>
-#include <hints.hxx>
 #include <UndoTable.hxx>
 #include <cellatr.hxx>
 #include <mvsave.hxx>
