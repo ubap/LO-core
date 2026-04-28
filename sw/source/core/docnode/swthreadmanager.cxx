@@ -19,7 +19,6 @@
 
 #include <swthreadmanager.hxx>
 #include <swthreadjoiner.hxx>
-#include <observablethread.hxx>
 #include "threadmanager.hxx"
 
 /** class to manage threads in Writer - it conforms the singleton pattern

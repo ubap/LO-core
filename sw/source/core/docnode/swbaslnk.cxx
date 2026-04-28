@@ -17,7 +17,6 @@
  *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
  */
 
-#include <vcl/svapp.hxx>
 
 #include <osl/diagnose.h>
 #include <sfx2/lnkbase.hxx>
@@ -32,7 +31,6 @@
 #include <doc.hxx>
 #include <IDocumentLayoutAccess.hxx>
 #include <IDocumentLinksAdministration.hxx>
-#include <pam.hxx>
 #include <swtable.hxx>
 #include <swevent.hxx>
 #include <swbaslnk.hxx>

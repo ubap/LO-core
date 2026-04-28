@@ -23,7 +23,6 @@
 #include <ndtxt.hxx>
 #include <fldbas.hxx>
 #include <osl/diagnose.h>
-#include <flyfrm.hxx>
 #include <fmtanchr.hxx>
 #include <poolfmt.hxx>
 

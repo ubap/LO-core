@@ -50,7 +50,6 @@
 #include <editsh.hxx>
 #include <hints.hxx>
 #include <docsh.hxx>
-#include <ndtxt.hxx>
 #include <section.hxx>
 #include <swserv.hxx>
 #include <shellio.hxx>
