@@ -14,13 +14,9 @@
 #include <test/text/xtextrange.hxx>
 #include <test/text/xtext.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/text/XTextDocument.hpp>
-#include <com/sun/star/text/XText.hpp>
-#include <com/sun/star/table/XCell.hpp>
 #include <com/sun/star/text/XTextTable.hpp>
 #include <com/sun/star/text/XSimpleText.hpp>
 

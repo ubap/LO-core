@@ -11,11 +11,9 @@
 #include <test/container/xnameaccess.hxx>
 #include <test/container/xindexaccess.hxx>
 #include <test/container/xelementaccess.hxx>
-#include <test/text/xautotextcontainer.hxx>
 
 #include <com/sun/star/frame/Desktop.hpp>
 
-#include <com/sun/star/text/XAutoTextContainer.hpp>
 #include <com/sun/star/text/AutoTextContainer.hpp>
 
 #include <comphelper/processfactory.hxx>

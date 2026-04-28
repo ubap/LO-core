@@ -10,18 +10,10 @@
 #include <test/unoapi_test.hxx>
 #include <test/container/xenumeration.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/text/XTextDocument.hpp>
-#include <com/sun/star/text/XText.hpp>
-#include <com/sun/star/container/XEnumeration.hpp>
 #include <com/sun/star/container/XEnumerationAccess.hpp>
-#include <com/sun/star/text/ControlCharacter.hpp>
-#include <com/sun/star/lang/IllegalArgumentException.hpp>
-
-#include <comphelper/processfactory.hxx>
 
 using namespace css;
 using namespace css::uno;

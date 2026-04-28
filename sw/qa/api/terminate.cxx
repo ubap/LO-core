@@ -7,16 +7,12 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-#include <sal/config.h>
-
 #include <cppunit/TestAssert.h>
 #include <cppunit/extensions/HelperMacros.h>
 #include <cppunit/plugin/TestPlugIn.h>
 
 #include <com/sun/star/frame/Desktop.hpp>
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
-#include <com/sun/star/text/XText.hpp>
-#include <com/sun/star/text/XTextCursor.hpp>
 #include <com/sun/star/text/XTextDocument.hpp>
 #include <com/sun/star/text/XTextTable.hpp>
 #include <com/sun/star/uno/Reference.hxx>

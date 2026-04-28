@@ -12,16 +12,11 @@
 #include <test/container/xindexaccess.hxx>
 #include <test/container/xnameaccess.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/text/XTextDocument.hpp>
-#include <com/sun/star/text/XText.hpp>
 #include <com/sun/star/container/XNamed.hpp>
 #include <com/sun/star/text/XReferenceMarksSupplier.hpp>
-
-#include <comphelper/processfactory.hxx>
 
 using namespace css;
 using namespace css::uno;

@@ -16,15 +16,10 @@
 #include <test/text/xtext.hxx>
 #include <test/text/xfootnote.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/text/XTextDocument.hpp>
-#include <com/sun/star/text/XText.hpp>
 #include <com/sun/star/text/XFootnote.hpp>
-
-#include <comphelper/processfactory.hxx>
 
 using namespace css;
 using namespace css::uno;

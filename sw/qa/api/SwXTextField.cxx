@@ -14,19 +14,13 @@
 #include <test/text/xtextcontent.hxx>
 #include <test/text/xtextfield.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/beans/XPropertySet.hpp>
 
 #include <com/sun/star/text/XTextDocument.hpp>
 #include <com/sun/star/text/XTextContent.hpp>
-#include <com/sun/star/text/XText.hpp>
 #include <com/sun/star/text/XDependentTextField.hpp>
-#include <com/sun/star/text/XTextCursor.hpp>
-
-#include <comphelper/processfactory.hxx>
 
 using namespace css;
 using namespace css::uno;

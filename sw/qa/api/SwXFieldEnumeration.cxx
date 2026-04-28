@@ -10,16 +10,11 @@
 #include <test/unoapi_test.hxx>
 #include <test/container/xenumeration.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/beans/XPropertySet.hpp>
 #include <com/sun/star/text/XDependentTextField.hpp>
-#include <com/sun/star/container/XEnumeration.hpp>
-#include <com/sun/star/container/XEnumerationAccess.hpp>
 #include <com/sun/star/text/XTextDocument.hpp>
-#include <com/sun/star/text/XText.hpp>
 #include <com/sun/star/text/XTextFieldsSupplier.hpp>
 
 using namespace css;

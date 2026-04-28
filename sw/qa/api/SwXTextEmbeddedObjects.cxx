@@ -12,19 +12,13 @@
 #include <test/container/xindexaccess.hxx>
 #include <test/container/xelementaccess.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/text/XTextDocument.hpp>
 #include <com/sun/star/beans/XPropertySet.hpp>
-#include <com/sun/star/text/XText.hpp>
 #include <com/sun/star/text/XTextContent.hpp>
 #include <com/sun/star/text/XTextEmbeddedObjectsSupplier.hpp>
 #include <com/sun/star/document/XEmbeddedObjectSupplier.hpp>
-#include <com/sun/star/text/XTextFrame.hpp>
-
-#include <comphelper/processfactory.hxx>
 
 using namespace css;
 using namespace css::uno;

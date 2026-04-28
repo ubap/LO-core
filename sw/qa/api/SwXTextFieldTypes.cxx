@@ -12,15 +12,9 @@
 #include <test/container/xenumerationaccess.hxx>
 #include <test/util/xrefreshable.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
-#include <com/sun/star/lang/XMultiServiceFactory.hpp>
-
 #include <com/sun/star/text/XTextDocument.hpp>
 #include <com/sun/star/text/XTextFieldsSupplier.hpp>
 #include <com/sun/star/text/XDependentTextField.hpp>
-
-#include <comphelper/processfactory.hxx>
 
 using namespace css;
 using namespace css::uno;

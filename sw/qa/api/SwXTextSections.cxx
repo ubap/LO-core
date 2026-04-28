@@ -12,14 +12,9 @@
 #include <test/container/xindexaccess.hxx>
 #include <test/container/xelementaccess.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
-#include <com/sun/star/container/XNameAccess.hpp>
-#include <com/sun/star/text/XText.hpp>
 #include <com/sun/star/text/XTextContent.hpp>
-#include <com/sun/star/text/XTextCursor.hpp>
 #include <com/sun/star/text/XTextDocument.hpp>
 #include <com/sun/star/text/XTextSection.hpp>
 #include <com/sun/star/text/XTextSectionsSupplier.hpp>

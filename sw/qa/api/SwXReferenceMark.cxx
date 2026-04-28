@@ -12,12 +12,9 @@
 #include <test/text/xtextcontent.hxx>
 #include <test/container/xnamed.hxx>
 
-#include <com/sun/star/frame/Desktop.hpp>
-
 #include <com/sun/star/lang/XMultiServiceFactory.hpp>
 
 #include <com/sun/star/text/XTextDocument.hpp>
-#include <com/sun/star/text/XText.hpp>
 #include <com/sun/star/container/XNamed.hpp>
 
 using namespace css;
