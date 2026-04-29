@@ -2,7 +2,7 @@
 
 # --- CONFIGURATION ---
 MODULE="sw"                          # Module to compile
-DIRECTORY="sw/qa/api"                # Directory to process
+DIRECTORY="sw/qa"                # Directory to process
 SDK_PATH=$(xcrun --show-sdk-path)    # xcode sdk path
 LOG_FAILURES="../iwyu_failures.log"
 
